@@ -1,0 +1,7 @@
+python -m venv walterjango
+walterjango\scripts\activate
+pip install django
+django-admin
+django-admin startproject . <nome-do-projeto> . (setup)(core)
+django-admin startapp cadastro
+python manage.py runserver
